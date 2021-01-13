@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnu_ghichiso"
+        android:title="Ghi chỉ số sử dụng nước."/>
+
+    <item
+        android:id="@+id/mnu_thanhtoan"
+        android:title="Thanh toán tiền nước."/>
+
+    <item
+        android:id="@+id/mnu_chinhsuaKH"
+        android:title="Chỉnh sửa thông tin."/>
+
+    <item
+        android:id="@+id/mnu_xoaKH"
+        android:title="Xóa khách hàng."/>
+
+</menu>

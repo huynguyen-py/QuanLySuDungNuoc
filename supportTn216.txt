@@ -1,0 +1,122 @@
+
+    <style name="TitleStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#33FFBB</item>
+        <item name="android:textColor">#CC00CC</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>        
+    
+
+    <style name="LabelStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">#0000FF</item>
+    </style>
+
+    <style name="TextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">3dp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#880011</item>
+    </style>
+
+    <style name="ImageButtonStyle">
+        <item name="android:layout_width">55sp</item>
+        <item name="android:layout_height">48sp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+	
+    <style name="ButtonStyle2" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">#33AAAA</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+	
+	
+	
+	
+    <TextView
+        android:id="@+id/txt_"
+        style="@style/LabelStyle"
+        android:text="a" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <EditText
+            android:id="@+id/edt_"
+            style="@style/TextStyle"
+            android:hint="a"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/grp_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rdo_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="a" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spn_"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <CheckBox
+        android:id="@+id/chk_"
+        style="@style/LabelStyle"
+        android:text="a" />
+
+    <ListView android:id="@+id/lst_"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <ImageView
+        android:id="@+id/img_"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"        
+        android:contentDescription="a"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/btn_"
+        style="@style/ButtonStyle"
+        android:onClick="A"
+        android:text="a" />
+
+	<ImageButton
+		android:id="@+id/btn_"
+		style="@style/ImageButtonStyle"
+		android:contentDescription="a"
+		android:onClick="A"
+		android:src="@drawable/ic_launcher" />
+

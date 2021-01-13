@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".giaodien.ThongBao"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="Thông báo" />
+
+    <EditText
+        android:id="@+id/edt_chude"
+        style="@style/TextStyle"
+        android:hint="Chủ đề" />
+
+    <EditText
+        android:id="@+id/edt_nguoinhan"
+        style="@style/TextStyle"
+        android:hint="Người nhận" />
+
+    <EditText
+        android:id="@+id/edt_diachi"
+        style="@style/TextStyle"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Địa chỉ" />
+    <EditText
+        android:id="@+id/edt_noidung"
+        style="@style/TextStyle"
+        android:layout_weight="2"
+        android:gravity="top"
+        android:hint="Nội dung" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_goitb"
+            style="@style/ImageButtonStyle"
+            android:contentDescription="Gởi thông báo"
+            android:onClick="HienThiThongBao"
+            android:src="@mipmap/send" />
+
+        <ImageButton
+            android:id="@+id/btn_dong"
+            style="@style/ImageButtonStyle"
+            android:contentDescription="Đóng"
+            android:onClick="DongActivity"
+            android:src="@mipmap/thoat" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
